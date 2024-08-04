@@ -1,19 +1,31 @@
 .font{
     font-family: "Inter", sans-serif;
 }
- .bg{
-    background: rgb(0, 0, 0);
-}  
+ 
+*{
+    margin: 0;
+    padding:0;
+}
+.navber{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 55px;
+    padding-bottom: 35px;
+    margin-bottom: 95px;
+
+}
 
 .nav-coneinar{
-    list-style: none;
     display: flex;
-    box-sizing: border-box;
-    padding: 12px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
     border: 1px solid rgba(255, 255, 255, 0.1);
-
-    gap: 47px;
-    border-radius: 39px;
+    border-radius: 40px;
+    padding: 5px;
+    gap: 40px;
 }
 .nav-link{
     text-decoration: none;
@@ -24,11 +36,7 @@
 
 }
 
-.navber{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
+
 .home{
     border-radius: 46px;
     background: rgb(230, 83, 60);
@@ -43,7 +51,7 @@
 .brand{
     color: rgb(230, 83, 60);
     font-family: Inter;
-    font-size: 36px;
+    font-size: 2rem;
     font-weight: 800;
     margin: 0px;
      
@@ -74,6 +82,7 @@
     font-size: 16px;
     
     font-weight: 400;
+    margin-bottom: 50px;
         
 }
 .banner-text-conteinar{
@@ -111,7 +120,6 @@
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
-
     backdrop-filter: blur(30px);
     background: rgba(255, 255, 255, 0.1);
     position: absolute;
@@ -157,9 +165,6 @@
     font-size: 1.4rem;
     font-weight: 900;
     margin: 14px auto 0px;
-    
-
-
 
 }
 .text-3 p{
@@ -188,16 +193,11 @@
     }
     .banner-contein{
         flex-direction: column;
-      
-
-    }
-    .banner-contein{
-        width:100%;
-        align-items:center;
-    }
-     
-    .banner-img{
         width: 100%;
+        align-items: center;
+    }
+    .banner-img{
+        margin-top: -100px;
     }
     .banner-img img{
         width: 100%;
@@ -208,14 +208,13 @@
         left: 10%;
     }
     .banner-500{
-        top:40% ;
-        left: 30%;
+        top:16% ;
+        left: 55%;
 
     }
-   
     .banner-text-conteinar> h2{
         font-size: 2rem;
-        margin: auto;
+       
     }
     .header{
         width: 100%;
