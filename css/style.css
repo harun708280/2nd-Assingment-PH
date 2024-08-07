@@ -6,6 +6,12 @@
     margin: 0;
     padding:0;
 }
+.bg{
+    background: black;
+}
+.header{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(39, 38, 38, 0.76) 100%);
+}
 .navber{
     width: 80%;
     display: flex;
@@ -67,9 +73,7 @@
     gap: 150px;
     margin-top: 70px;
 }
-.header{
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
-}
+
 .banner-text-conteinar> h2{
     color: rgb(255, 255, 255);
     font-family: Inter;
@@ -80,7 +84,8 @@
 .banner-text-conteinar > p{
     color: rgba(255, 255, 255, 0.5);
     font-size: 16px;
-    
+    width: 90%;
+    margin: 0 auto;
     font-weight: 400;
     margin-bottom: 50px;
         
@@ -98,6 +103,7 @@
     border: none;
     font-size: 1.1rem;
     font-weight: 600;
+    box-sizing: border-box;
 }
 .btn-2{
     box-sizing: border-box;
@@ -108,12 +114,13 @@
     font-family: Inter;
     font-size: 1.2rem;
     font-weight: 600;
-    background:rgb(0, 0, 0);
+    background: local;
     margin-left: 20px;
 }
 .banner-img{
     position: relative;
     padding-right: 100px;
+    
 }
 
 .banner-500{
@@ -183,6 +190,66 @@
     border-radius: 100%;
     margin-left: 20px;
 }
+.habit-conteinar{
+    
+    width: 80%;
+    margin: 0 auto;
+    color: white;
+    
+}
+.habit-text{
+    max-width: 671px;
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    margin-top: 80px;
+}
+.habit-text h1 {
+    color:rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+
+}
+.habit-text p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 14px;
+
+}
+.habit-img{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-top: 100px;
+}
+.habit-img1{
+    
+    max-width:235px ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+   
+    
+}
+.habit-img1 img{
+    
+    border-radius: 100%;
+}
+.habit-about{
+  color:rgb(255, 255, 255); 
+  font-size: 1.5rem;
+  font-weight: 600; 
+  margin-top: 15px; 
+}
+.habit-pra{
+    text-align: center;
+    color:rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 10px;
+}
 
 @media screen and (max-width:576px) {
     .nav-coneinar{
@@ -193,8 +260,9 @@
     }
     .banner-contein{
         flex-direction: column;
-        width: 100%;
+        width: 80%;
         align-items: center;
+        margin-top: -90px;
     }
     .banner-img{
         margin-top: -100px;
@@ -228,12 +296,30 @@
     }
     .btn-banner{
         display: flex;
-        width: 100%;
+        width: 90%;
+        margin: 0 auto;
         align-items: center;
         justify-content: center;
     }
-    .btn-banner .btn-1,.btn-2{
+    .btn-1,.btn-2{
         width: 100%;
+    }
+    .btn-banner{
+        width: 100%;
+
+    }
+    .habit-img{
+        
+        grid-template-columns: repeat(1,1fr);
+        margin-top: 70px;
+       
+    }
+    .habit-img1{
+        width:100% ;
+        margin: 20px auto;
+    }
+    .habit-text{
+        margin-top: 0px;
     }
 
 
