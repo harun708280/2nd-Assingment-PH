@@ -10,7 +10,7 @@
     background: black;
 }
 .header{
-    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(39, 38, 38, 0.76) 100%);
+    background: linear-gradient(to top, black,rgba(39, 38, 38, 0.76) 100%);
 }
 .navber{
     width: 80%;
@@ -47,6 +47,7 @@
     border-radius: 46px;
     background: rgb(230, 83, 60);
     padding: 8px 20px;
+    margin-left: -5px;
     
 }
 .nav-hamburger{
@@ -154,7 +155,6 @@
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
-
     backdrop-filter: blur(20px);
     background: rgba(48, 48, 48, 0.54);
     display: flex;
@@ -289,7 +289,7 @@
     }
     .banner-text-conteinar,.banner-contein{
     
-        width: 100%;
+        width: 95%;
     }
     body{
         width: 100%;
@@ -320,6 +320,18 @@
     }
     .habit-text{
         margin-top: 0px;
+    }
+    .btn-1,.btn-2{
+        border-radius: 40px;
+       
+        font-size: 11px;
+        padding: 16px, 40px,16px,40px;
+        border-radius: 42px;
+        
+        color: rgb(255, 255, 255);
+       
+      
+        
     }
 
 
