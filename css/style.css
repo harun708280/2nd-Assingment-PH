@@ -289,6 +289,108 @@
     margin: 30px;
     margin-left: 35%;
 }
+.bmi-chart{
+    margin-top: 60px;
+}
+.bmi-title{
+    color: white;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+.bmi-title h3{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-weight: 900;
+
+}
+.bmi-title p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 15px;
+    
+}
+
+.bmi-table{
+    
+    border-collapse: collapse;
+    
+}
+.bmi-table-container h2{
+    color: rgb(255, 255, 255);
+    font-size: 1.7rem;
+    font-weight: 900;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+
+
+.bmi-form-conteinar h2{
+    color: rgb(255, 255, 255);
+    font-size: 1.7rem;
+    font-weight: 900;
+    margin-top: 50px;
+    margin-bottom: 13px;
+   
+}
+.bmi-form-conteinar p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-bottom: 40px;
+
+}
+
+.bmi-table th,.bmi-table td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 15px 18px;
+    color: rgba(255, 255, 255, 0.5)
+
+}
+.bmi-table th{
+    
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+}
+.bmi{
+    display: flex;
+    justify-content:space-around ;
+    background: rgb(31, 29, 29);
+}
+.bmi-form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    
+    
+}
+.bmi-form input[type="text"],
+.bmi-form select{
+  width: 100%; 
+  border-radius: 8px;
+
+ background: rgba(255, 255, 255, 0.1); 
+ font-size: 1rem;
+ font-weight: 400;
+ border-radius: 8px;
+ color: rgba(255, 255, 255, 0.6);
+ padding: 15px;
+ border: none;
+ box-sizing: border-box;
+}
+ .activati {
+    grid-column: span 2;
+    
+}
+.calc-size{
+    width: 60%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+
 @media screen and (max-width:576px) {
     .nav-coneinar{
         display: none;
@@ -385,6 +487,24 @@
         align-items: center;
         
     }
+    .bmi-title{
+        width: 90%;
+    }
+    .bmi-title h3{
+        font-size: 2.7rem;
+        margin-top: -30px;
+    }
+    .bmi-title p{
+        margin-bottom: -40px;
+    }
+    .bmi{
+        flex-direction: column;
+    }
+    .bmi-table-container,.bmi-form-conteinar{
+        width: 90%;
+        margin: 0 auto;
+    }
+
 
 
 
