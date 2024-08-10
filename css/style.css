@@ -639,6 +639,14 @@
         text-decoration: line-through;
         margin-left: 10px;
     }
+    .menu-item {
+        transition: transform 0.3s ease; /* Apply transition to the transform property */
+    }
+
+    .menu-item:hover{
+        transform: scaleX(1) scaleY(1.2)  ;
+        
+    }
 
 
 
@@ -782,14 +790,19 @@
     }
     .package-menu{
         grid-template-columns: repeat(1,1fr);
-        gap: 20px;
+        gap: 30px;
+       
 
     }
+   
     .package-conteinar p{
         width: 90%;
         margin-bottom: -40px;
     }
     
+    .menu-item img{
+        width: 100%;
+    };
 
 
 
