@@ -47,9 +47,10 @@
     border-radius: 46px;
     background: rgb(230, 83, 60);
     padding: 8px 20px;
-    margin-left: -3.3px;
+    margin-left: -3.2px;
     
 }
+
 .nav-hamburger{
     color: rgb(255, 255, 255);
     font-size:3rem ;
@@ -199,6 +200,7 @@
     color: white;
     
 }
+
 .habit-text{
     max-width: 671px;
     margin: 0 auto;
@@ -206,6 +208,7 @@
     text-align: center;
     margin-top: 80px;
 }
+
 .habit-text h1 {
     color:rgb(255, 255, 255);
     font-size: 3rem;
@@ -218,13 +221,14 @@
     font-weight: 400;
     margin-top: 14px;
 }
+
 .habit-img{
     display: grid;
     grid-template-columns: repeat(4,1fr);
     margin-top: 100px;
 }
-.habit-img1{
-    
+
+.habit-img1{  
     max-width:235px ;
     width: 100%;
     display: flex;
@@ -234,16 +238,19 @@
    
     
 }
+
 .habit-img1 img{
     
     border-radius: 100%;
 }
+
 .habit-about{
   color:rgb(255, 255, 255); 
   font-size: 1.5rem;
   font-weight: 600; 
   margin-top: 15px; 
 }
+
 .habit-pra{
     text-align: center;
     color:rgba(255, 255, 255, 0.5);
@@ -251,6 +258,7 @@
     font-weight: 400;
     margin-top: 10px;
 }
+
 .run-conteinar{
     width: 80%;
     color: white;
@@ -262,18 +270,16 @@
     justify-content: center;
     gap: 100px;
     border-radius:18px ;
-   
-
 }
+
 .run-text{
     margin: 30px;
 }
+
  .run-text h2{
     color: rgb(255, 255, 255);
-
     font-size: 3rem;
     font-weight: 900;
-
  }
 
  .run-text p{
@@ -291,34 +297,37 @@
     margin: 30px;
     margin-left: 35%;
 }
+
 .bmi-chart{
     margin-top: 60px;
 }
+
 .bmi-title{
     color: white;
     width: 40%;
     margin: 0 auto;
     margin-top: 70px;
 }
+
 .bmi-title h3{
     color: rgb(255, 255, 255);
     font-size: 3rem;
     font-weight: 900;
 
 }
+
 .bmi-title p{
     color: rgba(255, 255, 255, 0.5);
     font-size: 1rem;
     font-weight: 400;
-    margin-top: 15px;
-    
+    margin-top: 15px;   
 }
 
-.bmi-table{
-    
+.bmi-table{ 
     border-collapse: collapse;
     
 }
+
 .bmi-table-container h2{
     color: rgb(255, 255, 255);
     font-size: 1.7rem;
@@ -327,22 +336,19 @@
     margin-bottom: 40px;
 }
 
-
-
 .bmi-form-conteinar h2{
     color: rgb(255, 255, 255);
     font-size: 1.7rem;
     font-weight: 900;
     margin-top: 50px;
-    margin-bottom: 13px;
-   
+    margin-bottom: 13px; 
 }
+
 .bmi-form-conteinar p{
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.8rem;
     font-weight: 400;
     margin-bottom: 40px;
-
 }
 
 .bmi-table th,.bmi-table td{
@@ -351,16 +357,18 @@
     color: rgba(255, 255, 255, 0.5)
 
 }
-.bmi-table th{
-    
+
+.bmi-table th{ 
     font-size: 1rem;
     color: rgb(255, 255, 255);
 }
+
 .bmi{
     display: flex;
     justify-content:space-around ;
     background: rgb(31, 29, 29);
 }
+
 .bmi-form{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -368,6 +376,7 @@
     
     
 }
+
 .bmi-form input[type="text"],
 .bmi-form select{
   width: 100%; 
@@ -506,147 +515,141 @@
     margin: 0 auto;
 }
  .footer-contein{
-        color: white;
-        background: rgba(255, 255, 255, 0.1);
-        margin-top: 80px;
+    color: white;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 80px;
 }
 .footer-conteinar{
-        width: 80%;
-        margin: 0 auto;
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        gap: 40px;
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 40px;
 }
-    .get-start-2,.get-start-1{
-        margin-left: 200px;
-        margin-top: 50px;
-        margin-bottom: 60px;
+.get-start-2,.get-start-1{
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 60px;       
+}
 
-        
-    }
-    .footer-brand h1{
-        color: rgb(230, 83, 60);
-        font-size: 4.5rem;
-        font-weight: 800;
-        margin-top: 75px;
+.footer-brand h1{
+    color: rgb(230, 83, 60);
+    font-size: 4.5rem;
+    font-weight: 800;
+    margin-top: 75px;
     
-    }
-    .footer-brand p{
-        color: rgba(255, 255, 255, 0.5);
-        font-size: 1rem;
-        font-weight: 400;
-        margin-top: 30px;
-    }
-    .get-start-1-lists,.get-start-2-lists{
-        list-style: none;
-        margin-top: 30px;
-        cursor: pointer;
-    }
-    .get-start-1-list,.get-start-2-list{
-        margin-top: 20px;
-        color: rgba(255, 255, 255, 0.5);
+}
+.footer-brand p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.get-start-1-lists,.get-start-2-lists{
+    list-style: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.get-start-1-list,.get-start-2-list{
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.5);
         
-        font-size: 1.3rem;
-        font-weight: 400;
-    }
-    .get-start-1 h4,.get-start-2 h4{
-        color: rgb(255, 255, 255);
-        font-size: 2rem;
-        font-weight: 700;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.get-start-1 h4,.get-start-2 h4{
+    color: rgb(255, 255, 255);
+    font-size: 2rem;
+    font-weight: 700;
     
-    }
-    .footer-line{
-        border: 2px solid rgba(255, 255, 255, 0.1);
-        margin-bottom: 40px;
-        width: 80%;
-        margin: 0 auto;
-    }
-    .copy-right{
-        width: 80%;
-        margin: 0 auto;
-        text-align: center;
-        margin-top: 30px;
-        
-        padding-bottom: 35px;
-        color: rgba(255, 255, 255, 0.5);
-       
-        font-size: 1.3rem;
-        font-weight: 400;
-    }
-    .package-conteinar {
-        color: whitesmoke;
-    }
-    .package-conteinar h3{
-        font-size: 3rem;
-        font-weight: 900;
-        color: rgb(255, 255, 255);
-        text-align: center;
-        margin-top: 50px;
-    }
+}
+.footer-line{
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin-bottom: 40px;
+    width: 80%;
+    margin: 0 auto;
+}
+.copy-right{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 30px;    
+    padding-bottom: 35px;
+    color: rgba(255, 255, 255, 0.5); 
+    font-size: 1.3rem;
+    font-weight: 400;
+}
+.package-conteinar {
+    color: whitesmoke;
+}
+.package-conteinar h3{
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 50px;
+}
 
-    .package-conteinar p{
-        width: 50%;
-        text-align: center;
-        margin: 0 auto;
-        margin-top: 20px;
-        color: rgba(255, 255, 255, 0.5);
-        font-size: 1rem;
-        font-weight: 400;
-    }
-    .package-menu{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-        width: 80%;
-        margin: 0 auto;
-        background: rgba(255, 255, 255, 0.1);
-        margin-top: 70px;
-        padding: 60px 20px;
-        border-radius: 20px;
-    }
-    .menu-item img{
-        border-radius: 18px;
-        width: 100%;
-    }
-    .menu-item {
-        max-width: 350px;
-        width: 100%;
-        box-sizing: border-box;
-        margin: 0 auto;
-        box-shadow: 0px 4px 10px rgba(29, 28, 28, 0.2); 
-        padding: 15px;
-        background: rgb(185, 28, 4);
-        border-radius: 20px;
+.package-conteinar p{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.package-menu{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 80%;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 70px;
+    padding: 60px 20px;
+    border-radius: 20px;
+}
+.menu-item img{
+    border-radius: 18px;
+    width: 100%;
+}
+.menu-item {
+    max-width: 350px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    box-shadow: 0px 4px 10px rgba(29, 28, 28, 0.2); 
+    padding: 15px;
+    background: rgb(185, 28, 4);
+    border-radius: 20px;
 
-        
-    }
-    .menu-item h4{
-        color: rgb(255, 255, 255);
-        font-size: 1.5rem;
-        font-weight: 900;
-        margin-top: 10px;
-        margin-bottom: 10px;
-    }
-    .menu-item h6{
-        font-size: 0.8rem;
-        font-weight: 400;
-    }
-    .price{
-        font-size: 2rem;
-        
+}
+.menu-item h4{
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 900;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.menu-item h6{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.price{
+    font-size: 2rem;
+}
+.discount{
+    text-decoration: line-through;
+     margin-left: 10px;
+}
+.menu-item {
+    transition: transform 0.3s ease; 
+}
 
-    }
-    .discount{
-        text-decoration: line-through;
-        margin-left: 10px;
-    }
-    .menu-item {
-        transition: transform 0.3s ease; /* Apply transition to the transform property */
-    }
-
-    .menu-item:hover{
-        transform: scaleX(1) scaleY(1.2)  ;
+.menu-item:hover{
+    transform: scaleX(1) scaleY(1.2)  ;
         
-    }
+}
 
 
 
@@ -803,11 +806,5 @@
     .menu-item img{
         width: 100%;
     };
-
-
-
-
-
-
 
 }
