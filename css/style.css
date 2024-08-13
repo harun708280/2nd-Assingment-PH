@@ -651,7 +651,12 @@
         
 }
 
-
+.sex-option{
+    color: rgb(255, 255, 255);
+    background-color: rgb(185, 28, 4);
+    font-size: 1rem;
+    font-weight: 400;
+}
 
 
 @media screen and (max-width:576px) {
